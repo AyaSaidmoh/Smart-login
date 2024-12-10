@@ -1,0 +1,32 @@
+body{
+  background:#24353f;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+
+.page{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1 {
+    color: #17a2b8;
+    font-size: 2.5rem;
+}
+.form-control{
+    display: block;
+    width: 100%;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background:#24353f;
+    
+}
+.form-control:focus {
+    background: #24353f; 
+    color: white;
+    outline: none; 
+    border: 1px solid #17a2b8; 
+    box-shadow: 0px 0px 5px #17a2b8; 
+}
+input::placeholder {
+    color: #aaa !important; 
+    opacity: 1;
+}
